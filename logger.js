@@ -44,7 +44,7 @@ class Logger{
 
     debug(message, ...params){
         if(params){
-            this.logger.debug(message, params)
+            this.logger.debug(message, ...params)
             return
         }
         this.logger.debug(message)
