@@ -5,7 +5,7 @@ logger.info("Hello Javascript")
 logger.debug("Hello %s", "Golang")
 
 var p_language = "Java"
-logger.warn("Hello ${p_language}")
+logger.warn(`Hello ${p_language}`)
 
 /*
 ---------------- Output --------------------------------
